@@ -1,7 +1,7 @@
 CPLEX SOLVE
 ---
 
-This Python library provide a simplified way to use the CPLEX Python API. In other words, it porvides a funtion that helps you formulate your linear programs.
+This Python library provide a simplified way to use the CPLEX Python API. In other words, it provides a funtion that helps you formulate your linear programs.
 
 # Matrix methods
 
