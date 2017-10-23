@@ -2,7 +2,8 @@
 import cplex
 import cplex_solve
 
-def from_template(variables,constraints, minimize=True, path=None, verbose=False):
+def from_template(variables,constraints,
+                  minimize=True, path=None, verbose=False, solve=True):
     
     #####################################################################
     # Extract variables
@@ -38,6 +39,7 @@ def from_template(variables,constraints, minimize=True, path=None, verbose=False
 
     #####################################################################
     # Solving problem
-    prob.solve()
+    if solve:
+        prob.solve()
     
     return prob

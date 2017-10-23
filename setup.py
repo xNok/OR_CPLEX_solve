@@ -16,7 +16,7 @@ setup(
     # Application name:
     name='cplex_solve',
     # Version number (initial):
-    version='0.1.0',
+    version='0.1.1',
     description='Simplified way to use the CPLEX Python API',
     # Application author details:
     author='Alexandre Couedelo',
